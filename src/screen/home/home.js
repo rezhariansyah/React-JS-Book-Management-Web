@@ -12,12 +12,12 @@ class home extends Component {
                 </div>
                 <div class="row">
                     <div class="col-md-2 offset-md-8 mt-3">
-                        <input className="btn btn-warning" type="button" defaultValue="Input" />
+                        <input className="btn btn-info" type="button" defaultValue="Input" />
                     </div>   
                 </div>
                 <div className="row mt-5">
                     <div className="col-md-3">                       
-                            <div className="card" style={{width: '15rem'}}>                
+                            <div className="card text-white bg-info" style={{width: '15rem'}}>                
                                 <img src="https://placeimg.com/400/500/people/sepia" className="card-img-top" alt="..." />                                
                                 <div className="card-body">
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -25,7 +25,7 @@ class home extends Component {
                             </div>                                              
                     </div>
                     <div className="col-md-3">
-                        <div className="card" style={{width: '15rem'}}>
+                        <div className="card text-white bg-info" style={{width: '15rem'}}>
                             <img src="https://placeimg.com/400/500/people/sepia" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -33,7 +33,7 @@ class home extends Component {
                         </div>
                     </div>
                     <div className="col-md-3">
-                        <div className="card" style={{width: '15rem'}}>
+                        <div className="card text-white bg-info" style={{width: '15rem'}}>
                             <img src="https://placeimg.com/400/500/people/sepia" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -41,7 +41,7 @@ class home extends Component {
                         </div>
                     </div>
                     <div className="col-md-3">
-                        <div className="card" style={{width: '15rem'}}>
+                        <div className="card text-white bg-info" style={{width: '15rem'}}>
                             <img src="https://placeimg.com/400/500/people/sepia" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
