@@ -1,0 +1,13 @@
+.rounded-pill {
+    height: 150px;
+}
+
+.search {
+    -webkit-box-shadow: 0px 4px 12px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 12px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 12px -5px rgba(0,0,0,0.75);
+}
+
+.card {
+    border-radius: 30px;
+}
