@@ -1,22 +1,68 @@
 import React, { Component } from 'react';
 import './bookDetail.css';
-import Button from '../../components/editJumbotron/buttonEdit'
+import ModalEdit from '../../components/modals/modalEdit';
+import swal from 'sweetalert';
+import Axios from 'axios';
+import { urlApi } from '../../support/urlAPI';
+
 
 class BookDetail extends Component {
+    state = {
+        book : {}
+    }
+
+    componentDidMount() {
+        this.getDataApi()
+    }
+    
+    getDataApi = () => {
+        var idUrl = this.props.match.params.id
+        Axios.get(urlApi + '/library/' + idUrl)
+        .then((res) => {
+            this.setState({book : res.data})
+        })
+        .catch((err) => {
+            console.log(err)
+        })
+    }
+
+    onBtnDelete = () => {
+        swal({
+            title: "Are you sure?",
+            text: "Once deleted, you will not be able to recover this imaginary file!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+          })
+          .then((willDelete) => {
+            if (willDelete) {
+              swal("Poof! Your imaginary file has been deleted!", {
+                icon: "success",
+              });
+            } else {
+              swal("Your imaginary file is safe!");
+            }
+          })
+    }
+
     render() {
+        let {title,desc,img,create_at,update_at,category} = this.state.book
         return (
             <div className="container">
                 <div className="jumbotron">
                     <div className="row">
-                        <Button/>
+                        <ModalEdit/>
+                        <input type="button" className="btn btn-outline-light btn-sm ml-3" value="Delete" onClick={() => this.onBtnDelete()}/>
                     </div>
                     <div className="card cardBook" style={{maxWidth: '15rem'}}>
-                        <img src="https://placeimg.com/400/500/people/sepia" className="card-img-top" alt="..." />
+                        <img src={img} style={{height:"299px"}} className="card-img-top" alt="..." />
                     </div>                  
                 </div>
                 <div className="row">
                     <div className="col-sm-8">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus consequatur neque accusamus voluptate nostrum accusantium molestiae dicta! Eligendi quisquam dignissimos et nulla reprehenderit cumque consequatur voluptatem autem voluptates asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut maiores quis architecto sequi eveniet ipsum, autem aspernatur porro magnam, maxime iure quasi labore. Excepturi magnam quos earum soluta minima. Magni.</p>
+                        <h4>{title}</h4>
+                        <p>Genre : {category}</p>
+                        <p>{desc}</p>
                     </div>  
                 </div> 
                 
@@ -25,5 +71,6 @@ class BookDetail extends Component {
         );
     }
 }
+
 
 export default BookDetail;

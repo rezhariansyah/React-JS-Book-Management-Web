@@ -1,5 +1,6 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import ModalEdit from '../modals/modalEdit';
 
 export default class Button extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ export default class Button extends React.Component {
           Actions
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem>Edit</DropdownItem>
+          <DropdownItem></DropdownItem><ModalEdit/>
           <DropdownItem>Delete</DropdownItem>
         </DropdownMenu>
       </Dropdown>

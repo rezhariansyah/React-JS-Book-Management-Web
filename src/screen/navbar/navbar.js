@@ -4,6 +4,7 @@ import {
   NavbarBrand
 } from 'reactstrap';
 import './navbar.css';
+import {Link} from 'react-router-dom';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ export default class Example extends React.Component {
       <div>
         <Navbar className="navbar" color="light" light expand="md">
         <div className="container">
-            <NavbarBrand className="navbarBrand" href="/">BOOK</NavbarBrand>
+            <Link to='/'><NavbarBrand className="navbarBrand">BOOK</NavbarBrand></Link>
         </div>
         </Navbar>
       </div>

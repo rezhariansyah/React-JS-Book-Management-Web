@@ -1,0 +1,40 @@
+{
+    "library": [
+        {
+            "id" : 1,
+            "title" : "harry potter",
+            "desc" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus consequatur neque accusamus voluptate nostrum accusantium molestiae dicta! Eligendi quisquam dignissimos et nulla reprehenderit cumque consequatur voluptatem autem voluptates asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut maiores quis architecto sequi eveniet ipsum, autem aspernatur porro magnam, maxime iure quasi labore. Excepturi magnam quos earum soluta minima. Magni.",
+            "img" : "https://images.pottermore.com/bxd3o8b291gf/7cpPZFFu92oY46WWiiQcc2/909c7290404dfcda472cb330dc84c135/Harry-Potter-in-cupboard-Jim-Kay-RGB-636x800.jpg?w=1024",
+            "create_at" : "10/28/1990 10:08:11",
+            "update_at" : "10/28/1990 10:08:11",
+            "category" : "fantacy"
+        },
+        {
+            "id" : 2,
+            "title" : "twilight",
+            "desc" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus consequatur neque accusamus voluptate nostrum accusantium molestiae dicta! Eligendi quisquam dignissimos et nulla reprehenderit cumque consequatur voluptatem autem voluptates asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut maiores quis architecto sequi eveniet ipsum, autem aspernatur porro magnam, maxime iure quasi labore. Excepturi magnam quos earum soluta minima. Magni.",
+            "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Twilight_%282008_film%29_poster.jpg/220px-Twilight_%282008_film%29_poster.jpg",
+            "create_at" : "10/28/1990 10:08:11",
+            "update_at" : "10/28/1990 10:08:11",
+            "category" : "fantacy"
+        },
+        {
+            "id" : 3,
+            "title" : "peterpan",
+            "desc" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus consequatur neque accusamus voluptate nostrum accusantium molestiae dicta! Eligendi quisquam dignissimos et nulla reprehenderit cumque consequatur voluptatem autem voluptates asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut maiores quis architecto sequi eveniet ipsum, autem aspernatur porro magnam, maxime iure quasi labore. Excepturi magnam quos earum soluta minima. Magni.",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlAvInaDXOCZIwagkP2z7WJxdukcMnAi7j-osopLsnyZpEBoVN",
+            "create_at" : "10/28/1990 10:08:11",
+            "update_at" : "10/28/1990 10:08:11",
+            "category" : "kids"
+        },
+        {
+            "id" : 4,
+            "title" : "valak",
+            "desc" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus consequatur neque accusamus voluptate nostrum accusantium molestiae dicta! Eligendi quisquam dignissimos et nulla reprehenderit cumque consequatur voluptatem autem voluptates asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut maiores quis architecto sequi eveniet ipsum, autem aspernatur porro magnam, maxime iure quasi labore. Excepturi magnam quos earum soluta minima. Magni.",
+            "img" : "https://i.pinimg.com/originals/3e/29/8b/3e298b0af313fa9741c867ae2d2b3b31.jpg",
+            "create_at" : "10/28/1990 10:08:11",
+            "update_at" : "10/28/1990 10:08:11",
+            "category" : "horror"
+        }
+    ]
+}
