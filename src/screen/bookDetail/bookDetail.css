@@ -3,6 +3,7 @@
     background-size: cover; 
     height: 400px;
     color: white;
+    border-radius: 0px !important;
 }
 
 .cardBook {

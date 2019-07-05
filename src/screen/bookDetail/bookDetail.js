@@ -4,6 +4,7 @@ import ModalEdit from '../../components/modals/modalEdit';
 import swal from 'sweetalert';
 import Axios from 'axios';
 import { urlApi } from '../../support/urlAPI';
+import {Link} from 'react-router-dom';
 
 
 class BookDetail extends Component {
@@ -12,7 +13,14 @@ class BookDetail extends Component {
     }
 
     componentDidMount() {
+        this.getAllBook()
         this.getDataApi()
+    }
+
+    getAllBook = () => {
+        Axios.get(urlApi + '/library')
+        .then((res) => this.setState({book : res.data}))
+        .catch((err) => console.log(err))
     }
     
     getDataApi = () => {
@@ -27,32 +35,27 @@ class BookDetail extends Component {
     }
 
     onBtnDelete = () => {
-        swal({
-            title: "Are you sure?",
-            text: "Once deleted, you will not be able to recover this imaginary file!",
-            icon: "warning",
-            buttons: true,
-            dangerMode: true,
-          })
-          .then((willDelete) => {
-            if (willDelete) {
-              swal("Poof! Your imaginary file has been deleted!", {
+        Axios.delete(urlApi + '/library/' + this.state.book.id)
+        .then((res) => {
+            swal({
+                title: "the Book Has Been Deleted",
+                text: "You clicked the button!",
                 icon: "success",
-              });
-            } else {
-              swal("Your imaginary file is safe!");
-            }
-          })
+                button: "Aww yiss!",
+            });
+            this.getAllBook()
+        })
+        
     }
 
     render() {
-        let {title,desc,img,create_at,update_at,category} = this.state.book
+        let {title,desc,img,create_at,category} = this.state.book
         return (
             <div className="container">
                 <div className="jumbotron">
                     <div className="row">
                         <ModalEdit/>
-                        <input type="button" className="btn btn-outline-light btn-sm ml-3" value="Delete" onClick={() => this.onBtnDelete()}/>
+                        <Link to='/'><input type="button" className="btn btn-outline-light btn-sm ml-3" value="Delete" onClick={this.onBtnDelete}/></Link>
                     </div>
                     <div className="card cardBook" style={{maxWidth: '15rem'}}>
                         <img src={img} style={{height:"299px"}} className="card-img-top" alt="..." />
@@ -62,12 +65,11 @@ class BookDetail extends Component {
                     <div className="col-sm-8">
                         <h4>{title}</h4>
                         <p>Genre : {category}</p>
+                        <p>{create_at}</p>
                         <p>{desc}</p>
                     </div>  
-                </div> 
-                
-            </div>
-            
+                </div>                 
+            </div>        
         );
     }
 }
