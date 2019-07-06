@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Label, Input, Form } from 'reactstrap';
 import Axios from 'axios';
 import { urlApi } from '../../support/urlAPI';
+import swal from 'sweetalert';
 
 class ModalExample extends React.Component {
   constructor(props) {
@@ -31,6 +32,12 @@ class ModalExample extends React.Component {
     Axios.post(urlApi + '/library' , this.state.newBookData)
     .then((res) => {
       let { books } = this.state;
+      swal({
+        title: "Add Book Success",
+        text: "You clicked the button!",
+        icon: "success",
+        button: "Aww yiss!",
+      });
       this.toggle()
       this.setState({books})         
     })

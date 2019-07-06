@@ -1,20 +1,36 @@
 {
   "library": [
     {
-      "title": "valak",
-      "img": "https://www.prime1studio.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/h/d/hdmmnun-01_b16.jpg",
-      "category": "horror",
-      "desc": "Valac is a demon described in the goetic grimoires the Lesser Key of Solomon (in some versions as Ualac or Valak[1] and in Thomas Rudd's variant as Valu),[2] Johann Weyer's Pseudomonarchia Daemonum (as Volac),[3] the Liber Officium Spirituum (as Coolor or Doolas),[4][5] and in the Munich Manual of Demonic Magic (as Volach)[6][7][8] as an valec angelically winged boy riding a two-headed dragon, attributed with the power of finding treasures.",
-      "create_at": "2019/7/5",
-      "id": 2
-    },
-    {
-      "title": "peter pan",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Peter_Pan_1915_cover.jpg/255px-Peter_Pan_1915_cover.jpg",
-      "category": "kids",
-      "desc": "Peter Pan is a fictional character created by Scottish novelist and playwright J. M. Barrie. A free-spirited and mischievous young boy who can fly and never grows up, Peter Pan spends his never-ending childhood having adventures on the mythical island of Neverland as the leader of the Lost Boys, interacting with fairies, pirates, mermaids, Native Americans, and occasionally ordinary children from the world outside Neverland.\n\nPeter Pan has become a cultural icon symbolizing youthful innocence and escapism. In addition to two distinct works by Barrie, the character has been featured in a variety of media and merchandise, both adapting and expanding on Barrie's works. These include the 1953 Disney animated film, a 2003 dramatic/live-action film, a television series and many other works.",
+      "title": "One Punch Man",
+      "img": "https://www.wallpapermaiden.com/wallpaper/10146/download/600x800/one-punch-man-genos-tatsumaki-saitama-mumen-rider.jpg",
+      "category": "comic",
+      "desc": "Ada kabar baik bagi kamu fans berat dari manga One Punch Man. Sebab, manga yang menceritakan mengenai kisah Saitama itu akan diadaptasi dalam video gim.\n\nKepastian ini diumumkan oleh Bandai Namco beberapa waktu lalu. Dikutip dari Engadget, Kamis (27/6/2019), pengembang asal Jepang itu mengaku sedang menggarap gim berjudul One Punch Man: A Hero Nobody Knows.\n\nMeski belum ada informasi detail mengenai jadwal rilisnya, Bandai sudah mengungkap sekilas gameplay dari gim ini melalui sebuah trailer. Dari trailer itu diketahui, gim ini akan mengusung gameplay action fighting.",
       "create_at": "2019/7/5",
       "id": 3
+    },
+    {
+      "title": "Bleach",
+      "img": "https://static.zerochan.net/Kurosaki.Ichigo.full.666041.jpg",
+      "category": "comic",
+      "desc": "is a Japanese anime television series based on Tite Kubo's manga of the same name. The series ran for a total of 366 episodes. Bleach was produced by Studio Pierrot and directed by Noriyuki Abe. Bleach's Japanese and English voice actors include some of the most credited and known voice actors, including Masakazu Morita and Johnny Yong Bosch. The music was composed by Shirō Sagisu, who also composed the music for Neon Genesis Evangelion. A total of fifteen opening themes and thirty ending themes were used throughout the series, featuring a diverse group of Japanese artists.\n\nBleach follows the adventures of Ichigo Kurosaki after he obtains the powers of a Soul Reaper (死神 Shinigami, literally, \"Death God\") — a death personification similar to the Grim Reaper — from another Soul Reaper, Rukia Kuchiki. His newfound powers force him to take on the duties of defending humans from evil spirits and guiding departed souls to the afterlife. The anime adaptation includes original storylines not found in the manga with repeated appearances and stories containing these original characters. Studio Pierrot produced the series from 2004 to 2012, consisting of 366 episodes. Viz Media obtained foreign television and home video distribution rights to the Bleach anime on March 15, 2004. Cartoon Network's Adult Swim block began airing Bleach in the United States on September 9, 2006. The series' international release extends through dozens of countries in several languages, such as Spanish, French, German, Brazilian Portuguese and Tagalog.",
+      "create_at": "2019/7/5",
+      "id": 5
+    },
+    {
+      "title": "Insidious",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/91jpnwQdcvL._SL1500_.jpg",
+      "category": "horror",
+      "desc": "Insidious is a 2010 supernatural horror film directed by James Wan, written by Leigh Whannell, and starring Patrick Wilson, Rose Byrne, and Barbara Hershey. It is the first installment in the Insidious franchise, and the third in terms of the series' in-story chronology. The story centers on a couple whose son inexplicably enters a comatose state and becomes a vessel for ghosts in an astral dimension who want to inhabit his body. The film was released in theaters on April 1, 2011, and was FilmDistrict's first theatrical release. The film is followed by a sequel, Chapter 2 (2013) and two prequels, Chapter 3 (2015) and The Last Key (2018).",
+      "create_at": "2019/7/5",
+      "id": 6
+    },
+    {
+      "title": "Doraemon",
+      "img": "https://i.pinimg.com/originals/2a/02/68/2a026809d5a02d6526f086c05e3d56fd.jpg",
+      "category": "comic",
+      "desc": "is a Japanese manga series written and illustrated by Fujiko F. Fujio, the pen name of the duo Hiroshi Fujimoto and Motoo Abiko. The series has also been adapted into a successful anime series and media franchise. The story revolves around a robotic cat named Doraemon, who travels back in time from the 22nd century to aid a boy named Nobita Nobi (野比のび太 Nobi Nobita).\n\nThe first full story in the Doraemon manga series was published in January 1970. A pre-advertisement for the manga was published in six different magazines in December 1969. A total of 1,345 stories were created in the original series, which are published by Shogakukan. It is one of the best-selling manga in the world, having sold over 100 million copies as of 2015.",
+      "create_at": "2019/7/5",
+      "id": 7
     }
   ]
 }

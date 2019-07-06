@@ -25,7 +25,7 @@ export default class Example extends React.Component {
       <div>
         <Navbar className="navbar" color="light" light expand="md">
         <div className="container">
-            <Link to='/'><NavbarBrand className="navbarBrand">BOOK</NavbarBrand></Link>
+            <Link to='/'><NavbarBrand className="navbarBrand">BOOK MANAGEMENT</NavbarBrand></Link>
         </div>
         </Navbar>
       </div>

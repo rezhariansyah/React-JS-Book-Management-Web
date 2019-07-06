@@ -52,10 +52,15 @@ class BookDetail extends Component {
         let {title,desc,img,create_at,category} = this.state.book
         return (
             <div className="container">
-                <div className="jumbotron">
+                <div className="jumbotron" style={{backgroundImage:`url(${img})`}}>
                     <div className="row">
-                        <ModalEdit/>
-                        <Link to='/'><input type="button" className="btn btn-outline-light btn-sm ml-3" value="Delete" onClick={this.onBtnDelete}/></Link>
+                        <ModalEdit title={title}
+                                    desc={desc}
+                                    img={img}
+                                    create_at={create_at}
+                                    category={category}
+                        />
+                        <Link to='/'><input type="button" className="btn btn-outline-info btn-sm ml-3" value="Delete" onClick={this.onBtnDelete}/></Link>
                     </div>
                     <div className="card cardBook" style={{maxWidth: '15rem'}}>
                         <img src={img} style={{height:"299px"}} className="card-img-top" alt="..." />
@@ -73,6 +78,5 @@ class BookDetail extends Component {
         );
     }
 }
-
 
 export default BookDetail;
